@@ -9,7 +9,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView msgTextView;
     private TextView contactTextView;
     private Bundle mBundle;
-    private TextView mText;
+    TextView mText;
+	
 
 
     SmsBroadcastReceiver mReceiver = new SmsBroadcastReceiver();
